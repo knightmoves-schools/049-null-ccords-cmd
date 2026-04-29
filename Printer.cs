@@ -11,6 +11,6 @@ public class Printer
 
     public string Print(StringBuilder message)
     {
-        return message?.ToString() ?? "no message";
+        return message?.ToString();
     }
 }
